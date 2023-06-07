@@ -29,7 +29,8 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "test.py"
+    "test.py",
+    "templates/index.html",
 ]
 
 # for loop for reading each filenames in the list of files
