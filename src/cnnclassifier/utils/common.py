@@ -5,7 +5,7 @@ from src.cnnclassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
-from box import ConfigBox
+from box import box,ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
@@ -13,7 +13,7 @@ import base64
 
 @ensure_annotations
 def read_yaml(path_to_yaml:Path)->ConfigBox:
-    """Reads yaml file and returns in terms of coonfigbox type
+    """Reads yaml file and returns in terms of configbox type
     args:
     path_yaml(str): path to yaml file
 
